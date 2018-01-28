@@ -1,0 +1,5 @@
+c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\ChatClient\bin\Debug\ChatClient.exe.config
+c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\ChatClient\bin\Debug\ChatClient.exe
+c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\ChatClient\bin\Debug\ChatClient.pdb
+c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\ChatClient\obj\Debug\ChatClient.exe
+c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\ChatClient\obj\Debug\ChatClient.pdb

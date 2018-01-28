@@ -1,0 +1,6 @@
+c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\MVpChatServer\bin\Debug\MvpChatServer.exe
+c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\MVpChatServer\bin\Debug\MvpChatServer.pdb
+c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\MVpChatServer\obj\Debug\MvpChatServer.View.ReceiveForm.resources
+c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\MVpChatServer\obj\Debug\MVpChatServer.csproj.GenerateResource.Cache
+c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\MVpChatServer\obj\Debug\MvpChatServer.exe
+c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\MVpChatServer\obj\Debug\MvpChatServer.pdb
