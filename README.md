@@ -4,7 +4,8 @@ Communicate between diferent active/opened applications in Windows
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+There are 2 projects in this solution, 1 Console application for sending messags after choosing a communication methods and a 
+Windows forms application to display the messages. 
 
 ### Prerequisites
 
@@ -12,29 +13,23 @@ Visual Studio 2015 .NET FrameWork 4.5
 
 ## Running the application
 
-Explain how to run the automated tests for this system
+Set the properties of the solution so as it can multiple porjects, the console application will prompt for values and the method of communications. You can execute the Binaries directy from the debug folder as well.
 
-### Break down into end to end tests
+## Patterns Used
 
-Explain what these tests test and why
+1. Strategy pattern for implmenting 3 different communication strategies
+2. MVP, for Windows Forms
 
-```
-Give an example
-```
+## Coding Style
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+No Coding style tools are used.
 
 ## Authors
 
 * **Tom J** - *Initial work* - https://github.com/tomj0311
 
-## License
+## Topics not covered
 
+## License
 
 ## Acknowledgments
