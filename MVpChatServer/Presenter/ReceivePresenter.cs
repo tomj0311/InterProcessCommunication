@@ -17,13 +17,12 @@ namespace MvpChatServer.Presenter
         public ReceivePresenter(IReceiveView receiveView)
         {
             _receiveView = receiveView;
-            receiveView.GetMessages += GetMessages;
+            receiveView.showMessages += GetMessages;
         }
 
         private void GetMessages(object sender, EventArgs e)
         {
-            var receiveMessage = new ReceiveViaMemmoryMappedFile();
-            _receiveView.DisplayMessage(receiveMessage.ReceiveMessage());
+            _receiveView.DisplayMessage();
         }
     }
 }

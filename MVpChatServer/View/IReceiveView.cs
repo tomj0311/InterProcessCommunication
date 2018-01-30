@@ -8,7 +8,7 @@ namespace MvpChatServer.View
 {
     public interface IReceiveView
     {
-        event EventHandler GetMessages;
-        void DisplayMessage(string message);
+        event EventHandler showMessages;
+        void DisplayMessage();
     }
 }

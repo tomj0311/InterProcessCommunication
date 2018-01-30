@@ -4,3 +4,11 @@ c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\MVpChatServer\o
 c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\MVpChatServer\obj\Debug\MVpChatServer.csproj.GenerateResource.Cache
 c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\MVpChatServer\obj\Debug\MvpChatServer.exe
 c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\MVpChatServer\obj\Debug\MvpChatServer.pdb
+E:\InterProcessCommunication\MVpChatServer\bin\Debug\MvpChatServer.exe
+E:\InterProcessCommunication\MVpChatServer\bin\Debug\MvpChatServer.pdb
+E:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.csprojResolveAssemblyReference.cache
+E:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.View.ReceiveForm.resources
+E:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.csproj.GenerateResource.Cache
+E:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.csproj.CoreCompileInputs.cache
+E:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.exe
+E:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.pdb

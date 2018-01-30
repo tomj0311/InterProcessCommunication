@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,9 +17,11 @@ namespace MvpChatServer.View
         private ReceiveViaSendMessageAPI _sendMessageAPIListener;
         private ReceiveViaSocket _socketServer;
 
+        public ConcurrentBag<string> messageList;
+
         private Timer timer1 = new Timer();
 
-        public event EventHandler GetMessages;
+        public event EventHandler showMessages;
 
         public ReceiveForm()
         {
@@ -32,22 +35,19 @@ namespace MvpChatServer.View
             this.timer1.Tick += new System.EventHandler(this.OnTimerElapsed);
         }
 
-        public void DisplayMessage(string message)
+        public void DisplayMessage()
         {
-            var msg = new ListViewItem(new string[] { message });
-            if (msg != null)
+            MessagesList.Items.Clear();
+            foreach (var message in messageList.ToList())
             {
-                if (MessagesList.InvokeRequired == true)
-                    MessagesList.Invoke((MethodInvoker)delegate { MessagesList.Items.Add(msg);});
-
-                else
-                    MessagesList.Items.Add(msg);
+                var msg = new ListViewItem(new string[] { message });
+                MessagesList.Items.Add(msg);
             }
         }
         
         private void OnTimerElapsed(object sender, EventArgs e)
         {
-            GetMessages?.Invoke(sender, e);
+            showMessages?.Invoke(sender, e);
         }
     }
 }

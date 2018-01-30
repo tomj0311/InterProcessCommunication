@@ -13,7 +13,7 @@ namespace MvpChatServer
 {
     public class ReceiveViaSocket
     {
-        private ReceiveForm _receiveForm;
+        private readonly ReceiveForm _receiveForm;
         Socket serverSocket;
         byte[] byteData = new byte[1024];
 
@@ -51,7 +51,7 @@ namespace MvpChatServer
             BinaryFormatter formatter = new BinaryFormatter();
             string result = (string)formatter.Deserialize(new MemoryStream(byteData));
 
-            _receiveForm.DisplayMessage(result);
+            _receiveForm.messageList.Add(result);
         }
     }
 }

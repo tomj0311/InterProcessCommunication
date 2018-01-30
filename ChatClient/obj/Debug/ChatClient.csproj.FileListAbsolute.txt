@@ -3,3 +3,10 @@ c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\ChatClient\bin\
 c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\ChatClient\bin\Debug\ChatClient.pdb
 c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\ChatClient\obj\Debug\ChatClient.exe
 c:\users\win\documents\visual studio 2015\Projects\MVpChatServer\ChatClient\obj\Debug\ChatClient.pdb
+E:\InterProcessCommunication\ChatClient\bin\Debug\ChatClient.exe.config
+E:\InterProcessCommunication\ChatClient\bin\Debug\ChatClient.exe
+E:\InterProcessCommunication\ChatClient\bin\Debug\ChatClient.pdb
+E:\InterProcessCommunication\ChatClient\obj\Debug\ChatClient.csprojResolveAssemblyReference.cache
+E:\InterProcessCommunication\ChatClient\obj\Debug\ChatClient.csproj.CoreCompileInputs.cache
+E:\InterProcessCommunication\ChatClient\obj\Debug\ChatClient.exe
+E:\InterProcessCommunication\ChatClient\obj\Debug\ChatClient.pdb

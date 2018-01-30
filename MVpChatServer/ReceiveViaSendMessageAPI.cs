@@ -25,7 +25,7 @@ namespace MvpChatServer
         }
 
         private string message = string.Empty;
-        private ReceiveForm _receiveForm;
+        private readonly ReceiveForm _receiveForm;
 
         public ReceiveViaSendMessageAPI(ReceiveForm receiveForm)
         {
@@ -61,7 +61,7 @@ namespace MvpChatServer
                     Marshal.Copy(lpData, B, 0, CD.cbData);
                     string strData = Encoding.Default.GetString(B);
 
-                    _receiveForm.DisplayMessage(strData);
+                    _receiveForm.messageList.Add(strData);
 
                     break;
 

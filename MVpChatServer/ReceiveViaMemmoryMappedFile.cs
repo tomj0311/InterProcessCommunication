@@ -7,12 +7,20 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using MvpChatServer.View;
 
 namespace MvpChatServer
 {
     public class ReceiveViaMemmoryMappedFile 
     {
-        public string ReceiveMessage()
+        private readonly ReceiveForm _receiveForm;
+
+        public ReceiveViaMemmoryMappedFile(ReceiveForm receiveForm)
+        {
+            _receiveForm = receiveForm;
+        }
+
+        public void ReceiveMessage()
         {
             const int MMF_SIZE = 1024;
 
@@ -42,7 +50,7 @@ namespace MvpChatServer
                             }
                             else
                             {
-                                message = mmfdata;
+                                _receiveForm.messageList.Add(mmfdata);
                             }
 
                             mmvStream.Seek(0, SeekOrigin.Begin);
@@ -63,7 +71,6 @@ namespace MvpChatServer
             {
                 // handle other exceptions
             }
-            return message;
         }
     }
 }
