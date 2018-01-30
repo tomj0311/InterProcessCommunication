@@ -4,7 +4,7 @@ Communicate between diferent active/opened applications in Windows
 
 ## Getting Started
 
-There are 2 projects in this solution, 1 Console application for sending messags after choosing a communication methods and a 
+There are 2 projects in this solution, 1 Console application for sending messags after choosing a communication method and a 
 Windows forms application to display the messages. 
 
 ### Prerequisites
