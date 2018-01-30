@@ -9,11 +9,11 @@ Windows forms application to display the messages.
 
 ### Prerequisites
 
-Visual Studio 2015 .NET FrameWork 4.5
+Visual Studio 2015 .NET FrameWork 4.5, C# 7 Features used.
 
 ## Running the application
 
-Set the properties of the solution so as it can multiple porjects, the console application will prompt for values and the method of communications. You can execute the Binaries directy from the debug folder as well.
+Set the properties of the solution so as it can multiple porjects, the console application will prompt for values and the method of communications. Can execute the Binaries directy from the debug folder as well.
 
 ## Patterns Used
 
