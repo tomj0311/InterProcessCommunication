@@ -43,8 +43,6 @@ namespace MvpChatServer.View
         {
             MessagesList.Items.Clear();
 
-            _mmfListener.ReceiveMessage();
-
             if (messageList != null)
             {
                 foreach (var message in messageList.ToList())
@@ -57,6 +55,8 @@ namespace MvpChatServer.View
         
         private void OnTimerElapsed(object sender, EventArgs e)
         {
+            _mmfListener.ReceiveMessage();
+
             showMessages?.Invoke(sender, e);
         }
     }

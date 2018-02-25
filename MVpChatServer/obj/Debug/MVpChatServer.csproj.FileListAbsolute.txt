@@ -18,4 +18,3 @@ G:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.View.ReceiveF
 G:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.csproj.GenerateResource.Cache
 G:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.exe
 G:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.pdb
-G:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.csprojResolveAssemblyReference.cache
