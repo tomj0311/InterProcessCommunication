@@ -10,3 +10,8 @@ E:\InterProcessCommunication\ChatClient\obj\Debug\ChatClient.csprojResolveAssemb
 E:\InterProcessCommunication\ChatClient\obj\Debug\ChatClient.csproj.CoreCompileInputs.cache
 E:\InterProcessCommunication\ChatClient\obj\Debug\ChatClient.exe
 E:\InterProcessCommunication\ChatClient\obj\Debug\ChatClient.pdb
+G:\InterProcessCommunication\ChatClient\bin\Debug\ChatClient.exe.config
+G:\InterProcessCommunication\ChatClient\bin\Debug\ChatClient.exe
+G:\InterProcessCommunication\ChatClient\bin\Debug\ChatClient.pdb
+G:\InterProcessCommunication\ChatClient\obj\Debug\ChatClient.exe
+G:\InterProcessCommunication\ChatClient\obj\Debug\ChatClient.pdb

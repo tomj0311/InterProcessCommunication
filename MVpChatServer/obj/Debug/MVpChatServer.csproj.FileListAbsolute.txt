@@ -12,3 +12,10 @@ E:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.csproj.Genera
 E:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.csproj.CoreCompileInputs.cache
 E:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.exe
 E:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.pdb
+G:\InterProcessCommunication\MVpChatServer\bin\Debug\MvpChatServer.exe
+G:\InterProcessCommunication\MVpChatServer\bin\Debug\MvpChatServer.pdb
+G:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.View.ReceiveForm.resources
+G:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.csproj.GenerateResource.Cache
+G:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.exe
+G:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.pdb
+G:\InterProcessCommunication\MVpChatServer\obj\Debug\MvpChatServer.csprojResolveAssemblyReference.cache

@@ -16,6 +16,7 @@ namespace MvpChatServer.View
     {
         private ReceiveViaSendMessageAPI _sendMessageAPIListener;
         private ReceiveViaSocket _socketServer;
+        private ReceiveViaMemmoryMappedFile _mmfListener;
 
         public ConcurrentBag<string> messageList;
 
@@ -29,8 +30,11 @@ namespace MvpChatServer.View
 
             _sendMessageAPIListener = new ReceiveViaSendMessageAPI(this);
             _socketServer = new ReceiveViaSocket(this);
+            _mmfListener = new ReceiveViaMemmoryMappedFile(this);
 
-            timer1.Interval = 10000;
+            messageList = new ConcurrentBag<string>();
+
+            timer1.Interval = 2000;
             timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.OnTimerElapsed);
         }
@@ -38,10 +42,16 @@ namespace MvpChatServer.View
         public void DisplayMessage()
         {
             MessagesList.Items.Clear();
-            foreach (var message in messageList.ToList())
+
+            _mmfListener.ReceiveMessage();
+
+            if (messageList != null)
             {
-                var msg = new ListViewItem(new string[] { message });
-                MessagesList.Items.Add(msg);
+                foreach (var message in messageList.ToList())
+                {
+                    var msg = new ListViewItem(new string[] { message });
+                    MessagesList.Items.Add(msg);
+                }
             }
         }
         
